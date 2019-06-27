@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+div{
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  width: 500px;
+  height: 210px;
+  border-radius: 26px 26px 26px 26px;
+  -moz-border-radius: 26px 26px 26px 26px;
+  -webkit-border-radius: 26px 26px 26px 26px;
+  border: 0px solid #000000;
+
+}
+body{
+  background-color: #1C1C1C;
+}

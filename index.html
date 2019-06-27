@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego de adivinanza</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <div>
+      <h1>Bienvenido a mi juego de adivinanza</h1>
+      <form action="index.html" method="post">
+        Introduce un numero del 1 al 100 : <input type="text" id="txtNumJuego">
+        <button type="button" id="btnJugar" onclick="getJugar()">Probar!</button></br>
+        <label id="lblIntentos">Numero de intentos: 10</label></br>
+        <label id="lblMensaje">¡Buena Suerte!</label></br>
+        <button type="button" id="btnReiniciar" onclick="getReiniciar()">Reiniciar juego</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="juego.js">
+
+    </script>
+  </body>
+</html>
